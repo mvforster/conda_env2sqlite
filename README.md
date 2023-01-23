@@ -1,4 +1,4 @@
-# Conda_emv2SQLite
+# Conda_env2SQLite
 
 A Package for creating an SQLite3 database of python packages contained in a set of Anaconda and Miniconda environment YAML files or text files. The package will require that the text or YAML files to be created separately, this can be acheived with one of the follwing BASH scripts:
 
