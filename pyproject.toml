@@ -2,14 +2,14 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "Conda2DB"
-version = "0.11"
+name = "conda_env2sqlite"
+version = "1.0.0"
 authors = [
   { name="Matthieu Vizuete-Forster", email="matthieu.vizueteforster@genomicsengland.co.uk" },
 ]
 description = "A package for extracting the python package content of Anaconda or Miniconda environments and placing these within an SQLite3 database"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -17,5 +17,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/mvforster/conda_env2sqlite"
+"Bug Tracker" = "https://github.com/mvforster/conda_env2sqlite/issues"
